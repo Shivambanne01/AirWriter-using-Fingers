@@ -19,7 +19,7 @@ Text Recognition Gesture
 
 # Getting Started
     Install dependencies: pip install -r requirements.txt
-    Run the AirWriter.py
+    Run AirWriter.py
 
 # Usage
     Launch the application.
