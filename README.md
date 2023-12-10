@@ -17,7 +17,20 @@ Text Recognition Gesture
     Gesture: Four fingers (excluding thumb)
     Action: Recognizes and extracts text from the painted window for further processing.
 
-Getting Started
-
+# Getting Started
     Install dependencies: pip install -r requirements.txt
     Run the AirWriter application.
+
+# Usage
+    Launch the application.
+    Use the thumb and first finger to write in the air.
+    Spread all five fingers to erase content.
+    Use four fingers (excluding the thumb) to recognize text from the painted window.
+
+# Dependencies
+    TensorFlow
+    OpenCV
+    Mediapipe
+
+# Contributing
+    Contributions are welcome! Feel free to open issues or pull requests.
