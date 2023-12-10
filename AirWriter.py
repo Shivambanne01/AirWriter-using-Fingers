@@ -5,6 +5,17 @@ from PIL import Image
 import mediapipe as mp
 
 class AirWriter():
+    """
+    AirWriter class for gesture-based text input using fingers.
+
+    Methods:
+    - __init__: Initializes the AirWriter object.
+    - find_hands: Finds hands in the video feed and visualizes them.
+    - recognize_text: Uses Tesseract OCR to extract text from the painted window.
+    - find_position: Finds the position of hands and fingers.
+    - clear_canvas: Clears the painted window canvas.
+    - fingers_up: Determines which fingers are raised.
+    """
     def __init__(self, mode = False, maxHands = 2, modelComplexity = 1, detectionCon = 0.5, trackCon = 0.5):
         self.mode = mode
         self.maxHands = maxHands
